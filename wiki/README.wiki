@@ -5,9 +5,13 @@
 
 Spidikuota adalah program untuk menampilkan sisa kuota speedy di linux.
 
+Website: http://code.google.com/p/spidikuota/
+
 Cara menampilkan menggunakan libnotify dengan mengambil informasi dari:
 
 http://portal.telkomspeedy.com/divre2/speedyalerthu/terima.php?noadsl=99999
+
+
 
 = Instalasi =
 
