@@ -1,4 +1,5 @@
 #summary Spidikuota untuk menampilkan kuota speedy
+#labels Featured,Phase-Deploy
 
 
 = Introduction =
@@ -18,9 +19,9 @@ http://portal.telkomspeedy.com/divre2/speedyalerthu/terima.php?noadsl=99999
 ===Install Requirement: wget, libnotify-bin===
 
 {{{
-sudo aptitude wget
+sudo aptitude install wget
 
-sudo aptitude libnotify-bin
+sudo aptitude install libnotify-bin
 }}}
 
 ===Extract dan copy binary===
