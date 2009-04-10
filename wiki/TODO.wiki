@@ -1,9 +1,0 @@
-#summary TODO list
-#labels Phase-Design
-
-= Introduction =
-
-* packaging (.deb) blankon?
-* icon
-* tampilan lebih rapi
-* data processing (persentase, history, bar)
