@@ -1,0 +1,7 @@
+# Introduction #
+
+List:
+  * packaging (.deb) blankon?
+  * icon
+  * tampilan lebih rapi
+  * data processing (persentase, history, bar)
