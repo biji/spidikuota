@@ -1,0 +1,9 @@
+#!/bin/sh
+
+[ "$1" =  "" ] && echo "Usage: $0 NOMORADSLSPEEDY" && exit
+
+RET=`wget -q -O - http://portal.telkomspeedy.com/divre2/speedyalerthu/terima.php?noadsl=$1 | html2text -ascii -style compact -width 35 | grep -E '(jam|MB|No.)'`
+
+[ "$RET" =  "" ] && echo "Internet not connected" && exit 
+
+notify-send "Speedy Alert" "$RET" 
